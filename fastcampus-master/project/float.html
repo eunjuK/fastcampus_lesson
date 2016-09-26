@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>박스모델-float-</title>
+  <style>
+    * {
+      margin: 0;
+    }
+    div {
+      background: yellow;
+      width: 500px;
+      clear: both;
+    }
+    h1 {
+      /*background: skyblue;*/
+      float: left;
+    }
+    h2 {
+      background: silver;
+    }
+    h3 {
+      background: pink;
+    }
+    p {
+      background: lime;
+      width: 500px;
+    }
+    p::after {
+      content: "";
+      background: aqua;
+      display: block;
+      clear: both;
+    }
+    img {
+      float: right;
+      position: relative;
+      right: -50px;
+    }
+    .note {
+      clear: none;
+      height: 100px;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>제목1</h1>
+    <h2>제목2</h2>
+  </div>
+  <h3>제목3</h3>
+  <p>
+    <img src="images/news.gif" alt="">
+    의정부지법 형사합의12부(허경호 부장판사)는
+  </p>
+  <div class="note">
+
+의정부지법 형사합의12부(허경호 부장판사)는 21일 살인 등의 혐의로 기소된 피고인 장모(48·여)씨에게 징역 8년을 선고했다.
+의정부지법 형사합의12부(허경호 부장판사)는 21일 살인 등의 혐의로 기소된 피고인 장모(48·여)씨에게 징역 8년을 선고했다.
+
+장씨는 지난 3월 3일 남양주시내 자신의 집에서 큰 딸(29·회사원)을 목 졸라 살해한 혐의를 받고 있다.
+의정부지법 형사합의12부(허경호 부장판사)는 21일 살인 등의 혐의로 기소된 피고인 장모(48·여)씨에게 징역 8년을 선고했다.
+
+장씨는 지난 3월 3일 남양주시내 자신의 집에서 큰 딸(29·회사원)을 목 졸라 살해한 혐의를 받고 있다.
+
+장씨는 지난 3월 3일 남양주시내 자신의 집에서 큰 딸(29·회사원)을 목 졸라 살해한 혐의를 받고 있다.
+
+  </div>
+</body>
+</html>
